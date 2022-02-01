@@ -77,6 +77,10 @@ body{
     background: url(../images/banner-img-1.jpg) top/cover no-repeat;
 }
 
+.header-nav-margin{
+    margin-top: 180px;
+}
+
 .carousel-inner h1{
     font-size: 60px;
     font-family: var(--lg-font);
