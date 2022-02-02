@@ -8,12 +8,9 @@
         @if(count($posts) > 0) 
         
             @foreach($posts as $post)
-            <div class="card m-5 py-3">
-                <h1><a class="text-dark" href="/posts/{{$post->id}}">{{$post->title}}</a></h1>
-                <small>Date: {{$post->created_at}}</small>
-            </div>                
+                <h1>{{$post->title}}</h1>
             @endforeach
-
+            
         @else
             <p>No posts to display!</p>
         @endif
