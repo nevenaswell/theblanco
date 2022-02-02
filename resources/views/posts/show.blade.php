@@ -1,3 +1,7 @@
+@extends('layouts.app')
+
+@section('content')
+
 <div class="container header-nav-margin text-center">
     <div class="my-5">
         <h1>{{$post->title}}</h1> 
@@ -5,4 +9,10 @@
         <h3>{{$post->body}}</h3>      
     </div>  
 </div>
+
+@endsection
+
+
+
+
 
